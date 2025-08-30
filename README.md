@@ -106,16 +106,16 @@ edu.eci.arsw.generics
 
 ### Requisitos: Maven 3.9+ y JDK 21
 
-#### 0) cd generics
+- cd generics
 
-#### 1) Compilar + ejecutar pruebas
-mvn -q clean test
+- Compilar + ejecutar pruebas
+  mvn -q clean test
 
-#### 2) Empaquetar JAR ejecutable
-mvn -q package
+- Empaquetar JAR ejecutable
+  mvn -q package
 
-#### 3) Ejecutar (ejemplo con dataset incluido)
-java -jar target/generics-1.0.0.jar --input src/main/resources/table1.txt
+- Ejecutar (ejemplo con dataset incluido)
+  java -jar target/generics-1.0.0.jar --input src/main/resources/table1.txt
 
 ## 6) Salida esperada de ejemplo:
 Media: 550.60
